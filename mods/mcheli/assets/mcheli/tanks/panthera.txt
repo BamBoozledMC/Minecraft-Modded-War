@@ -1,0 +1,126 @@
+﻿DisplayName = Pzkpfw. V Ausf. A
+AddDisplayName = en_US, Pzkpfw. V Ausf. A
+MaxHp = 220
+Speed = 0.25
+Sound = tank
+ThrottleUpDown = 3.5
+MobilityYawOnGround = 1.5
+MinRotationPitch = -60
+MaxRotationPitch = 5
+MobilityRoll = 0
+Gravity = -0.15
+GravityInWater = -0.1
+DamageFactor = 0.0
+CameraZoom = 4
+CameraPosition = 0.00, 2.5, 0.00
+HideEntity = true
+EnableNightVision = false
+CameraRotationSpeed = 15
+MaxFuel         = 1000
+FuelConsumption = 1.6
+StepHeight = 1.0
+DefaultFreelook = true
+OnGroundPitchFactor = 3.0
+OnGroundRollFactor  = 3.0
+FlareType = 2
+ThirdPersonDist = 12
+
+AddTexture = pantheradesert
+AddTexture = pantherasnow
+
+SubmergedDamageHeight = 1
+
+; Tank or Car or Unknown
+WeightType = Tank
+
+AddSeat = 0.0, 2.5, -1.0
+AddGunnerSeat = -0.6, 0.5, 0.5, -0.47, 1.23, 1.7
+AddGunnerSeat = 0.6, 0.5, 0.5, 0.45, 1.32, 1.4
+
+ArmorMinDamage = 19
+
+MotionFactor = 0.5
+; 0.9
+
+EnableBack = true
+EnableBack = true
+
+Category = M.A
+
+HUD = ww2tank_hud, ww2tank_hud, ww2tank_hud
+
+TrackRollerRot = 15
+SetWheelPos =  1.50,  -0.29, 1.9883, 1.204, 0.639, 0.074, -0.491, -1.056, -1.621, -2.184, -2.751, -3.3652,
+
+AddTrackRoller =  1.50, 0.2296, 1.204
+AddTrackRoller =  1.50, 0.2296, 0.074
+AddTrackRoller =  1.50, 0.2296, -1.056
+AddTrackRoller =  1.50, 0.2296, -2.184
+
+AddTrackRoller =  1.50, 0.2296, 0.639
+AddTrackRoller =  1.50, 0.2296, -0.491
+AddTrackRoller =  1.50, 0.2296, -1.621
+AddTrackRoller =  1.50, 0.2296, -2.751
+
+AddTrackRoller =  1.50, 0.5467, 1.9883
+AddTrackRoller =  1.50, 0.4228, -3.3652
+
+
+AddTrackRoller =  -1.50, 0.2296, 1.204
+AddTrackRoller =  -1.50, 0.2296, 0.074
+AddTrackRoller =  -1.50, 0.2296, -1.056
+AddTrackRoller =  -1.50, 0.2296, -2.184
+
+AddTrackRoller =  -1.50, 0.2296, 0.639
+AddTrackRoller =  -1.50, 0.2296, -0.491
+AddTrackRoller =  -1.50, 0.2296, -1.621
+AddTrackRoller =  -1.50, 0.2296, -2.751
+
+AddTrackRoller =  -1.50, 0.5467, 1.9883
+AddTrackRoller =  -1.50, 0.4228, -3.3652
+
+
+WeightedCenterZ = -0.8
+
+
+AddCrawlerTrack = false, 0.165,  1.217, -0.194/-2.49, -0.194/1.42, -0.128/1.70, 0.361/2.31, 0.537/2.36, 0.813/2.26, 0.918/1.99, 0.91/0.97, 0.91/0.021, 0.903/-1.252, 0.829/-2.33, 0.669/-3.25, 0.62/-3.42, 0.498/-3.55, 0.326/-3.60, 0.03/-3.43
+
+
+AddCrawlerTrack = false, 0.165,  -1.217, -0.194/-2.49, -0.194/1.42, -0.128/1.70, 0.361/2.31, 0.537/2.36, 0.813/2.26, 0.918/1.99, 0.91/0.97, 0.91/0.021, 0.903/-1.252, 0.829/-2.33, 0.669/-3.25, 0.62/-3.42, 0.498/-3.55, 0.326/-3.60, 0.03/-3.43
+
+AddPartWeapon = panther75_he / panther75_ap, false, true, false, 0.00, 1.5305, -1.034, 0
+AddPartWeaponChild = false, true, 0.00, 1.9535, -0.0264, 0
+AddPartWeaponChild = false, true, 0.00, 1.9535, -0.0264, 0.6
+AddTurretWeapon = panther75_he, 0.00, 1.9535, -0.0264, 0.0, 0.0, true, 1, 0,-360,360, -15, 5, 0.6
+AddTurretWeapon = panther75_ap, 0.00, 1.9535, -0.0264, 0.0, 0.0, true, 1, 0,-360,360, -15, 5, 0.6
+TurretPosition = 0.00, 1.5305, -1.034
+
+AddPartWeapon = mg34gunner, false, true, false, -0.5217, 1.18, 1.4517, 0
+AddPartWeaponChild = true, true, -0.5512, 1.2493, 1.4517, 0.1
+AddWeapon = mg34gunner, -0.5512, 1.2493, 1.4517, 0.0, 0.0, false, 2, 0,-15,15, -5, 5, 0.1
+
+
+AddWeapon = na, 0.0, 0.0, 0.0, 0.0, 0.0, false, 3, 0, -360, 360, -10, 90, 0
+
+AddTurretWeapon = mg34, -0.4927, 1.9573, -0.0264, 0.0, 0.0, true, 1, 0,-360,360, -15, 5, 0
+TurretPosition = 0.00, 1.5305, -1.034
+
+AddPartWeaponbay = mg34gunner, -0.9641, 0, 0.5311, 0, 1, 0, -130
+AddPartWeaponbay = na, 0, 1.3793, 1.4186, 1, 0, 0, -50
+AddPartCanopy = 0.9641, 0, 0.5311, 0, 1, 0, 130
+
+AddFixedSearchLight = 1.2697,  1.424,  1.7607,   0x50FFFFFF,   0x10FFFFC0,    30.0, 5.0,      5,   10
+AddParticleSplash = 0.3445, 1.5974, -4.3311, 5, 1.0, 0.5, 20, 0.30, 0.001
+AddParticleSplash = -0.3445, 1.5974, -4.3311, 5, 1.0, 0.5, 20, 0.30, 0.001
+AddParticleSplash = 0.482, 1.5788, -4.2979, 5, 1.0, 0.3, 20, 0.30, 0.001
+AddParticleSplash = 0.1966, 1.5788, -4.2979, 5, 1.0, 0.3, 20, 0.30, 0.001
+; AddParticleSplash = coordinates X, Y, Z, number of displays, size, speed, display time, rise, gravity
+
+
+BoundingBox =  0.0, 0.635, 1.53,   2.0, 0.9,   0.75
+BoundingBox =  0.0, 0.83, -0.09,   2.6, 1.3,   0.80
+BoundingBox =  0.0, 0.83, -1.69,   2.6, 1.3,   0.80
+BoundingBox =  0.0, 1.85, -0.50,   1.9, 0.75,   0.80
+
+
+AddRecipe = "III",  "XRX",  "IXI",  X, iron_block,  I, iron_ingot, R, redstone_block

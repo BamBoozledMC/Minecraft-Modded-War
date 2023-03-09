@@ -1,3 +1,3 @@
-# Minecraft-Modded-War
+# Minecraft Modded War
 
-PUT ALL EVERYTHING PAST .MINECRAFT/
+Downlaod the latest release to the left :D
